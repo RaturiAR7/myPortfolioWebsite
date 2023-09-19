@@ -1,0 +1,393 @@
+.app {
+  background: url("./img/bg.jpeg");
+  /* background-color: #353b48; */
+}
+.btn {
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: #da4ea2;
+  color: white;
+  font-weight: 400;
+  width: 100px;
+  padding: 10px;
+  border: 2px;
+  border-radius: 5px;
+}
+#navbarul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  text-decoration: none;
+}
+#navbarli a {
+  cursor: pointer;
+  font-size: large;
+  color: white;
+  text-decoration: none;
+}
+.ProjectPage {
+  width: 100vw;
+  height: 110vh;
+  text-align: center;
+  padding-top: 50px;
+  scroll-snap-align: center;
+}
+.project {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+
+  justify-content: space-around;
+}
+.ProjectPage h1 {
+  font-size: 70px;
+  padding-top: 10px;
+}
+p {
+  color: rgb(152, 158, 165);
+  padding-top: 6px;
+  padding-bottom: 7px;
+}
+.ProjectCard img {
+  border-radius: 10px;
+  margin: 10px;
+  width: 90%;
+  height: 50%;
+}
+#insta img {
+  width: 130px;
+  height: 130px;
+  padding-top: 150px;
+  padding-left: 70px;
+  object-fit: contain;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0px;
+  margin: auto;
+  animation: animate 2s infinite ease alternate;
+  @keyframes animate {
+    to {
+      transform: translateY(40px);
+    }
+  }
+}
+
+#linkedin img {
+  width: 140px;
+  height: 140px;
+  padding-top: 150px;
+  padding-left: 70px;
+  object-fit: contain;
+  /* position:absolute;  */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0px;
+  margin: auto;
+  animation: animate 2s infinite ease alternate;
+  @keyframes animate {
+    to {
+      transform: translateY(40px);
+    }
+  }
+}
+
+#leetcode img {
+  width: 120px;
+  height: 120px;
+  padding-top: 150px;
+  padding-left: 60px;
+  object-fit: contain;
+  border-radius: 10px;
+  /* position:absolute;  */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0px;
+  margin: auto;
+  animation: animate 2s infinite ease alternate;
+  @keyframes animate {
+    to {
+      transform: translateY(40px);
+    }
+  }
+}
+#github img {
+  width: 150px;
+  height: 150px;
+  padding-top: 150px;
+  padding-left: 60px;
+  object-fit: contain;
+
+  /* position:absolute;  */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0px;
+  margin: auto;
+  animation: animate 2s infinite ease alternate;
+  @keyframes animate {
+    to {
+      transform: translateY(40px);
+    }
+  }
+}
+#social {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  width: 15%;
+  padding-left: 40px;
+}
+#experience {
+  height: 145vh;
+  scroll-snap-align: center;
+}
+.left {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 80px;
+}
+.right {
+  width: 100%;
+  display: flex;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 150px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.maahi_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: azure;
+  align-items: center;
+  width: 40%;
+  height: 150px;
+  background-color: #39276b;
+  border-radius: 20px;
+}
+.right_container {
+  margin-right: 140px;
+}
+.maahi_container:hover {
+  box-shadow: 4px 4px 6px #797f85;
+}
+.logos {
+  width: 70px;
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+.maahi_container h1 {
+  font-weight: 200;
+}
+.maahi_container h3 {
+  font-weight: 100;
+  padding-top: 10px;
+  color: rgb(159, 155, 155);
+}
+.ProjectPage p {
+  padding-top: 40px;
+  font-size: 21px;
+}
+#experience h4 {
+  font-size: 25px;
+  color: rgb(159, 155, 155);
+  padding-left: 610px;
+  padding-top: 10px;
+}
+#experience h2 {
+  font-size: 65px;
+
+  padding-left: 320px;
+  padding-top: 15px;
+}
+
+/* .skill {
+  list-style: none;
+  text-transform: uppercase;
+  width: 1200px;
+  height: 1150px;
+  margin: 60px auto;
+  padding: 20px;
+} */
+/* .tech h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 80px;
+} */
+/* .skill h3 {
+  margin: 5px;
+}
+.skill li {
+  margin: 25px 0;
+  padding: 10px;
+} */
+.bar {
+  background: #353b48;
+  display: block;
+  height: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 70vw;
+  transition: all 0.3s cubic-beizer(0.25, 0.8, 0.25, 1);
+}
+
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(
+    135deg,
+    rgba(236, 0, 140, 1) 0%,
+    rgb(169, 101, 56) 100%
+  );
+}
+.html {
+  width: 90%;
+  animation: html 3s;
+}
+.css {
+  width: 75%;
+  animation: css 3s;
+}
+.javascript {
+  width: 65%;
+  animation: html 3s;
+}
+.react {
+  width: 60%;
+  animation: html 3s;
+}
+.nodejs {
+  width: 45%;
+  animation: nodejs 3s;
+}
+.tailwind {
+  width: 30%;
+  animation: tailwind 3s;
+}
+.bootstrap {
+  width: 50%;
+  animation: bootstrap 3s;
+}
+.cplus {
+  width: 85%;
+  animation: cplus 3s;
+}
+.java {
+  width: 70%;
+  animation: java 3s;
+}
+.python {
+  width: 65%;
+  animation: python 3s;
+}
+.git {
+  width: 55%;
+  animation: git 3s;
+}
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes nodejs {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 45%;
+  }
+}
+@keyframes tailwind {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+@keyframes bootstrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes cplus {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@keyframes git {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
