@@ -12,7 +12,7 @@ const WebDesign = () => {
       gl={{ preserveDrawingBuffer: false }}
     >
       <Model
-        scale={window.innerWidth > 700 ? [0.15, 0.15, 0.13] : [0.2, 0.2, 0.18]}
+        scale={window.innerWidth > 700 ? [0.15, 0.15, 0.13] : [0.18, 0.2, 0.1]}
       />
       <ambientLight intensity={0.4} />
       {/* <Mac/> */}
