@@ -59,7 +59,7 @@ const Works = () => {
   const [work, setWork] = useState("Web Design");
   return (
     <div
-      className='h-screen w-full flex justify-center relative text-black text-sm font-light'
+      className='md:h-screen w-full flex justify-center relative text-black text-sm font-light'
       id='Works'
     >
       <div className='md:h-full w-full flex md:flex-row flex-col items-center'>

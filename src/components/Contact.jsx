@@ -81,10 +81,10 @@ const Contact = () => {
   };
 
   return (
-    <Section id='Contact'>
+    <Section id='Contact' className='md:m-0 mr-10'>
       <Container>
         <Left>
-          <Form ref={ref} onSubmit={handleSubmit}>
+          <Form className='mb-10' ref={ref} onSubmit={handleSubmit}>
             <Title>Contact Us</Title>
             <Input placeholder='Name' name='name'></Input>
 

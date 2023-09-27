@@ -15,16 +15,16 @@ const MyTimeline = () => {
           return (
             <VerticalTimelineElement
               className='vertical-timeline-element--work'
-              contentStyle={{ background: "white", color: "#fff" }}
+              contentStyle={{ background: "black", color: "#fff" }}
               contentArrowStyle={{ borderRight: "7px solid  white" }}
               date={element.date}
               iconStyle={{ background: "white", color: "black" }}
               icon={<img className='rounded-3xl w-56' src={element.icon} />}
             >
-              <h3 className='vertical-timeline-element-title text-black text-center text-3xl'>
+              <h3 className='vertical-timeline-element-title text-white text-center text-3xl'>
                 {element.title}
               </h3>
-              <h4 className='vertical-timeline-element-title text-black text-center text-3xl'>
+              <h4 className='vertical-timeline-element-title text-white text-center text-3xl'>
                 {element.company_name}
               </h4>
               <p>{element.points}</p>

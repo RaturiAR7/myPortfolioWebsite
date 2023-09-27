@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className='app bg-black w-full full text-white'>
+    <div className="bg-[url('./img/bg.jpeg')] bg-no-repeat bg-cover w-full h-full text-white">
       <Navbar />
       <Hero></Hero>
       <Who></Who>
