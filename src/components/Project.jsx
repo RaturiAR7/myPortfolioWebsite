@@ -17,7 +17,7 @@ const Project = () => {
         tackled a wide range of projects that have allowed me to hone my skills
         and expertise.
       </p>
-      <div className='flex w-full h-full mt-24 justify-center items-center md:justify-around flex-col md:flex-row'>
+      <div className='flex flex-wrap w-full h-full mt-24 justify-center items-center md:justify-around flex-col md:flex-row'>
         {projectInfo.map((project) => {
           return (
             <div
