@@ -77,14 +77,13 @@ const Who = () => {
           </Canvas>
         </div>
         <div className='flex flex-col w-full md:w-1/2 justify-center md:mr-5'>
-          <div className='text-5xl text-center'>
-            Think outside the square space
-          </div>
+          <h2 className='text-5xl font-semibold text-center'>
+            THINK OUTSIDE THE SQUARE
+          </h2>
           <div className='flex items-center'>
-            <img className='h-1' src='./img/line.png'></img>
-            <div className='text-pink-500 text-lg'>Overview</div>
+            <p className='text-pink-500 text-lg font-semibold'>Overview</p>
           </div>
-          <div className='text-xl text-gray-500'>
+          <p className='text-xl text-gray-500 font-serif'>
             Welcome to my portfolio website! I'm excited to share my skills,
             experience, and projects with you. As a computer undergrad, I have a
             passion for creating innovative and effective solutions that solve
@@ -101,7 +100,7 @@ const Who = () => {
             abilities and inspires you to collaborate with me. Thank you for
             visiting, and please feel free to explore my portfolio and get in
             touch with any questions or opportunities.
-          </div>
+          </p>
           <a className='btn' href='#ProjectPage'>
             See our work
           </a>

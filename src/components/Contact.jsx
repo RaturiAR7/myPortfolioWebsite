@@ -85,7 +85,7 @@ const Contact = () => {
       <Container>
         <Left>
           <Form className='mb-10' ref={ref} onSubmit={handleSubmit}>
-            <Title>Contact Us</Title>
+            <h1 className='text-center w-full'>Contact Us</h1>
             <Input placeholder='Name' name='name'></Input>
 
             <Input placeholder='Email' name='email'></Input>

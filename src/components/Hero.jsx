@@ -35,15 +35,15 @@ const Hero = () => {
           ></img>
         </div>
         <div className='md:h-full w-full md:w-1/2 items-center flex flex-col'>
-          <div className='title text-8xl text-center'>Hi,I'm Maahi</div>
+          <h1 className='text-center'>Hi,I'm Maahi</h1>
           <div className='whatwedo flex gap-2 items-center'>
             <div className='line h-1' src='./img/line.png'></div>
-            <div className='subtitle text-4xl text-pink-400'>What I Do</div>
+            <h2 className='text-pink-400 font-bold text-6xl'>What I Do</h2>
           </div>
-          <div className='Desc text-2xl text-center text-gray-300'>
+          <p className='Desc text-xl text-center text-gray-300 font-serif'>
             I enjoy creating visually appealing websites.Welcome to my digital
             playground where I turn ideas into reality.
-          </div>
+          </p>
           <a className='btn' href='#Who'>
             learn more
           </a>
