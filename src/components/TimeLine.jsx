@@ -9,7 +9,7 @@ import experiences from "./experi";
 const MyTimeline = () => {
   return (
     <div className='h-full mt-20'>
-      <h2 className='text-center text-6xl m-10'>Education And Experience</h2>
+      <h1 className='text-center text-6xl m-10'>Education And Experience</h1>
       <VerticalTimeline>
         {experiences.map((element) => {
           return (
