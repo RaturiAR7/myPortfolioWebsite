@@ -4,10 +4,7 @@ import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 
 const Hero = () => {
   return (
-    <div
-      className='section h-full flex flex-col items-center mt-5 mb-5 '
-      id='Home'
-    >
+    <div className='section h-full flex flex-col items-center ' id='Home'>
       <div className='h-full w-full flex flex-col md:flex-row md:justify-center md:-mt-12 mb-10 items-center'>
         <div className='flex relative md:w-1/2 h-96 md:h-screen md:mt-20 md:ml-20 md:mr-20 md:justify-center items-center'>
           <Canvas
