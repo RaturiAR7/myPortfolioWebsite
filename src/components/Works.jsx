@@ -11,8 +11,9 @@ const Left = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
+  padding: 20px;
   @media only screen and (max-width: 768px) {
-    padding: 20px;
+    padding: 5px;
     justify-content: center;
   }
 `;
@@ -72,7 +73,7 @@ const Works = () => {
             ))}
           </List>
         </Left>
-        <div className='flex h-96 w-1/2 md:h-screen justify-center items-center'>
+        <div className='flex h-96 md:w-1/2 md:h-screen justify-center items-center'>
           {work === "Development" ? (
             <Development></Development>
           ) : work === "Web Design" ? (
