@@ -4,7 +4,7 @@ import Who from "./components/Who";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
-import Skill from "./components/skill";
+import Skill from "./components/Skill";
 import TimeLine from "./components/TimeLine";
 import Navbar from "./components/Navbar";
 
