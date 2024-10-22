@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="bg-[url('./img/bg.jpeg')] bg-no-repeat bg-cover w-full h-full text-white px-2">
+      <div className="bg-[url('/img/bg.jpeg')] bg-no-repeat bg-cover w-full h-full text-white px-2">
         <Hero></Hero>
         <Who></Who>
         <Works />
