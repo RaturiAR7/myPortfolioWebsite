@@ -101,12 +101,10 @@ const Contact = () => {
               "Your message has been sent.We'll get back to you soon :)"}
           </Form>
         </Left>
-        {window.innerWidth > 700 ? (
+        {window.innerWidth > 700 && (
           <Right>
             <Map></Map>
           </Right>
-        ) : (
-          <div></div>
         )}
       </Container>
     </Section>
